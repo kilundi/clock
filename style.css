@@ -25,6 +25,9 @@
 
 .wrapperContainer {
     display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding-top: 8px;
     justify-content: center;
     align-items: center;
     /* background: purple; */
@@ -32,7 +35,7 @@
     min-height: 70px;
     padding-bottom: 10px;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
 
     border-radius: 10px;
     backdrop-filter: blur(30px);
@@ -41,8 +44,14 @@
     cursor: pointer;
 }
 
+.yearDiv {
+    margin-top: 12px;
+}
+
 .timeContent {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
 }
 
@@ -51,6 +60,11 @@ span {
     /* use gradient color */
     font-size: 40px;
     position: relative;
+}
+
+.ampm {
+    font-size: 20px;
+    align-self: flex-start;
 }
 
 .timeContent span::after {
