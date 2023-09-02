@@ -98,7 +98,6 @@ const setInter = setInterval(() => {
   } else if (hour === 0) {
     hour = 12;
   }
-  hour = hour < 10 ? "0" + hour : "" + hour;
   hours.innerHTML = `${hour}`;
   ampm.innerText = period;
 }, 1000);
