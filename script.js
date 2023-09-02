@@ -101,5 +101,3 @@ const setInter = setInterval(() => {
   hours.innerHTML = `${hour}`;
   ampm.innerText = period;
 }, 1000);
-
-// clearInterval(setInter);
